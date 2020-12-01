@@ -79,7 +79,7 @@ Router-Model+View+Controller-API
 
 ## 附录
 
-  - [mongoose](/chapters/附录/mongoose.md)
+  - [用mongoose操控MongoDB](/chapters/附录/用mongoose操控MongoDB.md)
 
 
 
