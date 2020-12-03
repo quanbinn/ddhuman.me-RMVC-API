@@ -21,20 +21,68 @@
    $ npm i egg-mongoose --save
    ```
 
-4. **require("mongoose")** -> **mongoose.connect("dbUrl"))** 
+4. require("mongoose")	->	mongoose.connect("**dbUrl**"))
 
-5. **require("mongoose")** -> **mongoose.Schema** -> **let DocumentSchema = new Schema({...})** -> **let  Document = mongoose.model(" Document",  DocumentSchema)**;
+5. const **documentSchema** = new **mongoose.Schema**({...})
 
-6. **let User = require("..//models/user").User;** -> **User.CRUD**
+	->	const **Collection** = mongoose.model("**Collection**",  **documentSchema**);
+
+6. **Collection**.**CRUD**
 
 ## 打开实验文件
 
 ### 调试环境： 
 单击右方的[mongoose-example](https://codesandbox.io/s/mongoose-example-1pxqi?file=/src/index.js:237-245)，浏览器里会打开一个新的页面，里面有下面的代码段，如下图所示。
 
-### index.js
+### mongoose-first-example.js
 ```javascript
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/test', {useNewUrlParser: true, useUnifiedTopology: true});
 
+const Cat = mongoose.model('Cat', { name: String });
+
+const kitty = new Cat({ name: 'Zildjian' });
+kitty.save().then(() => console.log('meow'));
+```
+
+### tutorial.js
+```javascript
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/test', {useNewUrlParser: true});
+
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+	const kittySchema = new mongoose.Schema({
+	  name: String
+	});
+
+	kittySchema.methods.speak = function () {
+	  const greeting = this.name
+	    ? "Meow name is " + this.name
+	    : "I don't have a name";
+	  console.log(greeting);
+	}
+
+	const Kitten = mongoose.model('Kitten', kittySchema);
+
+	const silence = new Kitten({ name: 'Silence' });
+	console.log(silence.name); // 'Silence'
+
+	const fluffy = new Kitten({ name: 'fluffy' });
+	fluffy.speak(); // "Meow name is fluffy"
+
+	fluffy.save(function (err, fluffy) {
+	if (err) return console.error(err);
+	fluffy.speak();
+	});
+
+	Kitten.find(function (err, kittens) {
+	  if (err) return console.error(err);
+	  console.log(kittens);
+	})
+
+});
 ```
 
 ## Reference
