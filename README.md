@@ -6,11 +6,11 @@ Router-Model+View+Controller-API
 |experiment|equipment|  user  |
 |:-------:|:-------:|:-------:|
 |[R_showAnExperiment]|[R_learningEquip]|[R_register]|
-|[R_showExperiments]|[R_workingEquip]|[R_login]|
+|[R_experiments]|[R_workingEquip]|[R_login]|
 |                   |[R_exerciseEquip]|[R_logout]|
 
 [R_showAnExperiment]: /chapters/Router/showAnExperiment.md
-[R_showExperiments]: /chapters/Router/showExperiments.md
+[R_experiments]: /chapters/Router/experiments.md
 
 [R_learningEquip]: /chapters/Router/learningEquip.md
 [R_workingEquip]: /chapters/Router/workingEquip.md
@@ -25,11 +25,11 @@ Router-Model+View+Controller-API
 |experiment|equipment|  user  |
 |:-------:|:-------:|:-------:|
 |[C_showAnExperiment]|[C_learningEquip]|[C_register]|
-|[C_showExperiments]|[C_workingEquip]|[C_login]|
+|[C_experiments]|[C_workingEquip]|[C_login]|
 |                   |[C_exerciseEquip]|[C_logout]|
 
 [C_showAnExperiment]: /chapters/Ctroller/showAnExperiment.md
-[C_showExperiments]: /chapters/Ctroller/showExperiments.md
+[C_experiments]: /chapters/Ctroller/experiments.md
 
 [C_learningEquip]: /chapters/Ctroller/learningEquip.md
 [C_workingEquip]: /chapters/Ctroller/workingEquip.md
@@ -44,11 +44,11 @@ Router-Model+View+Controller-API
 |experiment|equipment|  user  |
 |:-------:|:-------:|:-------:|
 |[M_showAnExperiment]|[M_learningEquip]|[M_register]|
-|[M_showExperiments]|[M_workingEquip]|[M_login]|
+|[M_experiments]|[M_workingEquip]|[M_login]|
 |                   |[M_exerciseEquip]|[M_logout]|
 
 [M_showAnExperiment]: /chapters/Model/showAnExperiment.md
-[M_showExperiments]: /chapters/Model/showExperiments.md
+[M_experiments]: /chapters/Model/experiments.md
 
 [M_learningEquip]: /chapters/Model/learningEquip.md
 [M_workingEquip]: /chapters/Model/workingEquip.md
@@ -63,11 +63,11 @@ Router-Model+View+Controller-API
 |experiment|equipment|  user  |
 |:-------:|:-------:|:-------:|
 |[V_showAnExperiment]|[V_learningEquip]|[V_register]|
-|[V_showExperiments]|[V_workingEquip]|[V_login]|
+|[V_experiments]|[V_workingEquip]|[V_login]|
 |                   |[V_exerciseEquip]|[V_logout]|
 
 [V_showAnExperiment]: /chapters/View/showAnExperiment.md
-[V_showExperiments]: /chapters/View/showExperiments.md
+[V_experiments]: /chapters/View/experiments.md
 
 [V_learningEquip]: /chapters/View/learningEquip.md
 [V_workingEquip]: /chapters/View/workingEquip.md
