@@ -1,8 +1,6 @@
 # experiments
 
-### app/controller/experiments.js
-
-#### schema
+### Schema
 
 ```javascript
 const experimentSchema = new mongoose.Schema({
@@ -13,7 +11,7 @@ const experimentSchema = new mongoose.Schema({
   creator: String,
 });
 ```
-
+### app/controller/experiments.js
 
 ```javascript
 const mongoose = require('mongoose');
