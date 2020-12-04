@@ -66,16 +66,16 @@ Router-Model+View+Controller-API
 |[experiments]|[workingEquip]|[login]|
 |                   |[exerciseEquip]|[logout]|
 
-[showAnExperiment]: /chapters/View/showAnExperiment.md
-[experiments]: /chapters/View/experiments.md
+[showAnExperiment]: /chapters/View/V_showAnExperiment.md
+[experiments]: /chapters/View/V_experiments.md
 
-[learningEquip]: /chapters/View/learningEquip.md
-[workingEquip]: /chapters/View/workingEquip.md
-[exerciseEquip]: /chapters/View/exerciseEquip.md
+[learningEquip]: /chapters/View/V_learningEquip.md
+[workingEquip]: /chapters/View/V_workingEquip.md
+[exerciseEquip]: /chapters/View/V_exerciseEquip.md
 
-[register]: /chapters/View/register.md
-[login]: /chapters/View/login.md
-[logout]: /chapters/View/logout.md
+[register]: /chapters/View/V_register.md
+[login]: /chapters/View/V_login.md
+[logout]: /chapters/View/V_logout.md
 
 ## 附录
 
