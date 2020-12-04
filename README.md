@@ -39,7 +39,7 @@ Router-Model+View+Controller-API
 [C_login]: /chapters/Ctroller/login.md
 [C_logout]: /chapters/Ctroller/logout.md
 
-## **连接MongoDB**后CRUD-Database
+## **Model**
 
 |experiment|equipment|  user  |
 |:-------:|:-------:|:-------:|
