@@ -1,81 +1,63 @@
 # ddhuman.me-RMVC-API
 Router-Model+View+Controller-API
 
-## **Router**
+## **User**
 
-|experiment|equipment|  user  |
-|:-------:|:-------:|:-------:|
-|[R_showAnExperiment]|[R_learningEquip]|[R_register]|
-|[R_experiments]|[R_workingEquip]|[R_login]|
-|                   |[R_exerciseEquip]|[R_logout]|
+|              |    Router    |    Model     |     View     |  Controller  |
+| :----------: | :----------: | :----------: | :----------: | :----------: |
+| **register** | [R_register] | [M_register] | [V_register] | [C_register] |
+|  **login**   |  [R_login]   |  [M_login]   |  [V_login]   |  [C_login]   |
+|  **logout**  |  [R_logout]  |  [M_logout]  |  [V_logout]  |  [C_logout]  |
 
-[R_showAnExperiment]: /chapters/Router/showAnExperiment.md
-[R_experiments]: /chapters/Router/experiments.md
+[R_register]: /chapters/user/register/R_register.md
+[M_register]: /chapters/user/register/M_register.md
+[V_register]: /chapters/user/register/V_register.md
+[C_register]: /chapters/user/register/C_register.md
+[R_login]: /chapters/user/login/R_login.md
+[M_login]: /chapters/user/login/M_login.md
+[V_login]: /chapters/user/login/V_login.md
+[C_login]: /chapters/user/login/C_login.md
+[R_logout]: /chapters/user/logout/R_logout.md
+[M_logout]: /chapters/user/logout/M_logout.md
+[V_logout]: /chapters/user/logout/V_logout.md
+[C_logout]: /chapters/user/logout/C_logout.md
 
-[R_learningEquip]: /chapters/Router/learningEquip.md
-[R_workingEquip]: /chapters/Router/workingEquip.md
-[R_exerciseEquip]: /chapters/Router/exerciseEquip.md
+## **Equipment**
 
-[R_register]: /chapters/Router/register.md
-[R_login]: /chapters/Router/login.md
-[R_logout]: /chapters/Router/logout.md
+|              |    Router    |    Model     |     View     |  Controller  |
+| :----------: | :----------: | :----------: | :----------: | :----------: |
+| **learningEquip** | [R_learningEquip] | [M_learningEquip] | [V_learningEquip] | [C_learningEquip] |
+| **workingEquip**  | [R_workingEquip]  | [M_workingEquip]  | [V_workingEquip]  | [C_workingEquip]  |
+| **exerciseEquip** | [R_exerciseEquip] | [M_exerciseEquip] | [V_exerciseEquip] | [C_exerciseEquip] |
 
-## **Controller**
+[R_learningEquip]: /chapters/equipment/learningEquip/R_learningEquip.md
+[M_learningEquip]: /chapters/equipment/learningEquip/M_learningEquip.md
+[V_learningEquip]: /chapters/equipment/learningEquip/V_learningEquip.md
+[C_learningEquip]: /chapters/equipment/learningEquip/C_learningEquip.md
+[R_workingEquip]: /chapters/equipment/workingEquip/R_workingEquip.md
+[M_workingEquip]: /chapters/equipment/workingEquip/M_workingEquip.md
+[V_workingEquip]: /chapters/equipment/workingEquip/V_workingEquip.md
+[C_workingEquip]: /chapters/equipment/workingEquip/C_workingEquip.md
+[R_exerciseEquip]: /chapters/equipment/exerciseEquip/R_exerciseEquip.md
+[M_exerciseEquip]: /chapters/equipment/exerciseEquip/M_exerciseEquip.md
+[V_exerciseEquip]: /chapters/equipment/exerciseEquip/V_exerciseEquip.md
+[C_exerciseEquip]: /chapters/equipment/exerciseEquip/C_exerciseEquip.md
 
-|experiment|equipment|  user  |
-|:-------:|:-------:|:-------:|
-|[C_showAnExperiment]|[C_learningEquip]|[C_register]|
-|[C_experiments]|[C_workingEquip]|[C_login]|
-|                   |[C_exerciseEquip]|[C_logout]|
+## **Experiment**
 
-[C_showAnExperiment]: /chapters/Ctroller/showAnExperiment.md
-[C_experiments]: /chapters/Ctroller/experiments.md
+|              |    Router    |    Model     |     View     |  Controller  |
+| :----------: | :----------: | :----------: | :----------: | :----------: |
+|**showExperiments** | [R_showExperiments] | [M_showExperiments] | [V_showExperiments] | [C_showExperiments] |
+|**showAnExperiment**|[R_showAnExperimentp]|[M_showAnExperiment]|[V_showAnExperiment]|C_showAnExperiment]|
 
-[C_learningEquip]: /chapters/Ctroller/learningEquip.md
-[C_workingEquip]: /chapters/Ctroller/workingEquip.md
-[C_exerciseEquip]: /chapters/Ctroller/exerciseEquip.md
-
-[C_register]: /chapters/Ctroller/register.md
-[C_login]: /chapters/Ctroller/login.md
-[C_logout]: /chapters/Ctroller/logout.md
-
-## **Model**
-
-|experiment|equipment|  user  |
-|:-------:|:-------:|:-------:|
-|[M_showAnExperiment]|[M_learningEquip]|[M_register]|
-|[M_experiments]|[M_workingEquip]|[M_login]|
-|                   |[M_exerciseEquip]|[M_logout]|
-
-[M_showAnExperiment]: /chapters/Model/showAnExperiment.md
-[M_experiments]: /chapters/Model/experiments.md
-
-[M_learningEquip]: /chapters/Model/learningEquip.md
-[M_workingEquip]: /chapters/Model/workingEquip.md
-[M_exerciseEquip]: /chapters/Model/exerciseEquip.md
-
-[M_register]: /chapters/Model/register.md
-[M_login]: /chapters/Model/login.md
-[M_logout]: /chapters/Model/logout.md
-
-## **View**
-
-|experiment|equipment|  user  |
-|:-------:|:-------:|:-------:|
-|[V_showAnExperiment]|[V_learningEquip]|[V_register]|
-|[V_experiments]|[V_workingEquip]|[V_login]|
-|                   |[V_exerciseEquip]|[V_logout]|
-
-[V_showAnExperiment]: /chapters/View/showAnExperiment.md
-[V_experiments]: /chapters/View/experiments.md
-
-[V_learningEquip]: /chapters/View/learningEquip.md
-[V_workingEquip]: /chapters/View/workingEquip.md
-[V_exerciseEquip]: /chapters/View/exerciseEquip.md
-
-[V_register]: /chapters/View/register.md
-[V_login]: /chapters/View/login.md
-[V_logout]: /chapters/View/logout.md
+[R_showExperiments]: /chapters/experiment/showExperiments/R_showExperiments.md
+[M_showExperiments]: /chapters/experiment/showExperiments/M_showExperiments.md
+[V_showExperiments]: /chapters/experiment/showExperiments/V_showExperiments.md
+[C_showExperiments]: /chapters/experiment/showExperiments/C_showExperiments.md
+[R_showAnExperiment]: /chapters/experiment/showAnExperiment/R_showAnExperiment.md
+[M_showAnExperiment]: /chapters/experiment/showAnExperiment/M_showAnExperiment.md
+[V_showAnExperiment]: /chapters/experiment/showAnExperiment/V_showAnExperiment.md
+[C_showAnExperiment]: /chapters/experiment/showAnExperiment/C_showAnExperiment.md
 
 ## 附录
 
