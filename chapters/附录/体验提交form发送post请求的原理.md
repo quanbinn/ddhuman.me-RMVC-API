@@ -22,5 +22,5 @@ Last name:<input type="text" id="lname" name="lname"><br><br>
 
 ## Reference
 
-1. [**form method Attribute**](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_form_method
+1. [**form method Attribute**](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_form_method)
 
