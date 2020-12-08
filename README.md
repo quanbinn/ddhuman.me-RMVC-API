@@ -48,7 +48,7 @@ Router-Model+View+Controller-API
 |              |    Router    |    Model     |     View     |  Controller  |
 | :----------: | :----------: | :----------: | :----------: | :----------: |
 |**showExperiments** | [R_showExperiments] | [M_showExperiments] | [V_showExperiments] | [C_showExperiments] |
-|**showAnExperiment**|[R_showAnExperimentp]|[M_showAnExperiment]|[V_showAnExperiment]|C_showAnExperiment]|
+|**showAnExperiment**|[R_showAnExperiment]|[M_showAnExperiment]|[V_showAnExperiment]|[C_showAnExperiment]|
 
 [R_showExperiments]: /chapters/experiment/showExperiments/R_showExperiments.md
 [M_showExperiments]: /chapters/experiment/showExperiments/M_showExperiments.md
