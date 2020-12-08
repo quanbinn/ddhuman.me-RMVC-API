@@ -1,4 +1,4 @@
-# ddhuman.me-RMVC-API
+﻿# ddhuman.me-RMVC-API
 Router-Model+View+Controller-API
 
 ## **User**
@@ -26,38 +26,38 @@ Router-Model+View+Controller-API
 
 |              |    Router    |    Model     |     View     |  Controller  |
 | :----------: | :----------: | :----------: | :----------: | :----------: |
-| **learningEquip** | [R_learningEquip] | [M_learningEquip] | [V_learningEquip] | [C_learningEquip] |
-| **workingEquip**  | [R_workingEquip]  | [M_workingEquip]  | [V_workingEquip]  | [C_workingEquip]  |
-| **exerciseEquip** | [R_exerciseEquip] | [M_exerciseEquip] | [V_exerciseEquip] | [C_exerciseEquip] |
+| **learnEquip** | [R_learnEquip] | [M_learnEquip] | [V_learnEquip] | [C_learnEquip] |
+| **workEquip**  | [R_workEquip]  | [M_workEquip]  | [V_workEquip]  | [C_workEquip]  |
+| **exerEquip** | [R_exerEquip] | [M_exerEquip] | [V_exerEquip] | [C_exerEquip] |
 
-[R_learningEquip]: /chapters/equipment/learningEquip/R_learningEquip.md
-[M_learningEquip]: /chapters/equipment/learningEquip/M_learningEquip.md
-[V_learningEquip]: /chapters/equipment/learningEquip/V_learningEquip.md
-[C_learningEquip]: /chapters/equipment/learningEquip/C_learningEquip.md
-[R_workingEquip]: /chapters/equipment/workingEquip/R_workingEquip.md
-[M_workingEquip]: /chapters/equipment/workingEquip/M_workingEquip.md
-[V_workingEquip]: /chapters/equipment/workingEquip/V_workingEquip.md
-[C_workingEquip]: /chapters/equipment/workingEquip/C_workingEquip.md
-[R_exerciseEquip]: /chapters/equipment/exerciseEquip/R_exerciseEquip.md
-[M_exerciseEquip]: /chapters/equipment/exerciseEquip/M_exerciseEquip.md
-[V_exerciseEquip]: /chapters/equipment/exerciseEquip/V_exerciseEquip.md
-[C_exerciseEquip]: /chapters/equipment/exerciseEquip/C_exerciseEquip.md
+[R_learnEquip]: /chapters/equipment/learnEquip/R_learnEquip.md
+[M_learnEquip]: /chapters/equipment/learnEquip/M_learnEquip.md
+[V_learnEquip]: /chapters/equipment/learnEquip/V_learnEquip.md
+[C_learnEquip]: /chapters/equipment/learnEquip/C_learnEquip.md
+[R_workEquip]: /chapters/equipment/workEquip/R_workEquip.md
+[M_workEquip]: /chapters/equipment/workEquip/M_workEquip.md
+[V_workEquip]: /chapters/equipment/workEquip/V_workEquip.md
+[C_workEquip]: /chapters/equipment/workEquip/C_workEquip.md
+[R_exerEquip]: /chapters/equipment/exerEquip/R_exerEquip.md
+[M_exerEquip]: /chapters/equipment/exerEquip/M_exerEquip.md
+[V_exerEquip]: /chapters/equipment/exerEquip/V_exerEquip.md
+[C_exerEquip]: /chapters/equipment/exerEquip/C_exerEquip.md
 
 ## **Experiment**
 
 |              |    Router    |    Model     |     View     |  Controller  |
 | :----------: | :----------: | :----------: | :----------: | :----------: |
-|**showExperiments** | [R_showExperiments] | [M_showExperiments] | [V_showExperiments] | [C_showExperiments] |
-|**showAnExperiment**|[R_showAnExperiment]|[M_showAnExperiment]|[V_showAnExperiment]|[C_showAnExperiment]|
+|**showExps** | [R_showExps] | [M_showExps] | [V_showExps] | [C_showExps] |
+|**showAnExp**|[R_showAnExp]|[M_showAnExp]|[V_showAnExp]|[C_showAnExp]|
 
-[R_showExperiments]: /chapters/experiment/showExperiments/R_showExperiments.md
-[M_showExperiments]: /chapters/experiment/showExperiments/M_showExperiments.md
-[V_showExperiments]: /chapters/experiment/showExperiments/V_showExperiments.md
-[C_showExperiments]: /chapters/experiment/showExperiments/C_showExperiments.md
-[R_showAnExperiment]: /chapters/experiment/showAnExperiment/R_showAnExperiment.md
-[M_showAnExperiment]: /chapters/experiment/showAnExperiment/M_showAnExperiment.md
-[V_showAnExperiment]: /chapters/experiment/showAnExperiment/V_showAnExperiment.md
-[C_showAnExperiment]: /chapters/experiment/showAnExperiment/C_showAnExperiment.md
+[R_showExps]: /chapters/Exp/showExps/R_showExps.md
+[M_showExps]: /chapters/Exp/showExps/M_showExps.md
+[V_showExps]: /chapters/Exp/showExps/V_showExps.md
+[C_showExps]: /chapters/Exp/showExps/C_showExps.md
+[R_showAnExp]: /chapters/Exp/showAnExp/R_showAnExp.md
+[M_showAnExp]: /chapters/Exp/showAnExp/M_showAnExp.md
+[V_showAnExp]: /chapters/Exp/showAnExp/V_showAnExp.md
+[C_showAnExp]: /chapters/Exp/showAnExp/C_showAnExp.md
 
 ## 附录
 
