@@ -1,4 +1,4 @@
-﻿# ddhuman.me-RMVC-API
+# ddhuman.me-RMVC-API
 Router-Model+View+Controller-API
 
 ## **User**
@@ -63,4 +63,5 @@ Router-Model+View+Controller-API
 
   - [用mongoose操控MongoDB](/chapters/附录/用mongoose操控MongoDB.md)
   - [体验移植MongoDB中documents的原理](/chapters/附录/体验移植MongoDB中documents的原理.md)
+  - [体验提交form发送post请求的原理](/chapters/附录/体验提交form发送post请求的原理.md)
 
