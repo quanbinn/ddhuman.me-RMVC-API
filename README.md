@@ -1,4 +1,7 @@
+
+
 # ddhuman.me-RMVC-API
+
 Router-Model+View+Controller-API
 
 ## **User**
@@ -13,12 +16,30 @@ Router-Model+View+Controller-API
 [V_register]: /chapters/user/register/V_register.md
 [C_register]: /chapters/user/register/C_register.md
 [R_login]: /chapters/user/login/R_login.md
-[M_User]: /chapters/user/M_User.md
 [V_login]: /chapters/user/login/V_login.md
 [C_login]: /chapters/user/login/C_login.md
 [R_logout]: /chapters/user/logout/R_logout.md
 [C_logout]: /chapters/user/logout/C_logout.md
+[M_User]: /chapters/user/M_User.md
 
+## **Experiment**
+
+|                 |     Router      |     Model      |      View       |   Controller    |
+| :-------------: | :-------------: | :------------: | :-------------: | :-------------: |
+| **createAnExp** | [R_createAnExp] |       \        | [V_createAnExp] | [C_createAnExp] |
+|  **showExps**   |  [R_showExps]   | [M_Experiment] |  [V_showExps]   |  [C_showExps]   |
+|  **showAnExp**  |  [R_showAnExp]  |       /        |  [V_showAnExp]  |  [C_showAnExp]  |
+[R_createAnExp]: /chapters/experiment/showAnExp/R_createAnExp.md
+[M_Experiment]: /chapters/experiment/M_Experiment.md
+[V_createAnExp]: /chapters/experiment/showAnExp/V_createAnExp.md
+[C_createAnExp]: /chapters/experiment/showAnExp/C_createAnExp.md
+[R_showExps]: /chapters/experiment/showExps/R_showExps.md
+[V_showExps]: /chapters/experiment/showExps/V_showExps.md
+[C_showExps]: /chapters/experiment/showExps/C_showExps.md
+[R_showAnExp]: /chapters/experiment/showAnExp/R_showAnExp.md
+[V_showAnExp]: /chapters/experiment/showAnExp/V_showAnExp.md
+[C_showAnExp]: /chapters/experiment/showAnExp/C_showAnExp.md
+[M_Experiment]: /chapters/experiment/M_Experiment.md
 ## **Equipment**
 
 |              |    Router    |    Model     |     View     |  Controller  |
@@ -39,22 +60,6 @@ Router-Model+View+Controller-API
 [M_exerEquip]: /chapters/equipment/exerEquip/M_exerEquip.md
 [V_exerEquip]: /chapters/equipment/exerEquip/V_exerEquip.md
 [C_exerEquip]: /chapters/equipment/exerEquip/C_exerEquip.md
-
-## **Experiment**
-
-|              |    Router    |    Model     |     View     |  Controller  |
-| :----------: | :----------: | :----------: | :----------: | :----------: |
-|**showExps** | [R_showExps] | [M_showExps] | [V_showExps] | [C_showExps] |
-|**showAnExp**|[R_showAnExp]|[M_showAnExp]|[V_showAnExp]|[C_showAnExp]|
-
-[R_showExps]: /chapters/Exp/showExps/R_showExps.md
-[M_showExps]: /chapters/Exp/showExps/M_showExps.md
-[V_showExps]: /chapters/Exp/showExps/V_showExps.md
-[C_showExps]: /chapters/Exp/showExps/C_showExps.md
-[R_showAnExp]: /chapters/Exp/showAnExp/R_showAnExp.md
-[M_showAnExp]: /chapters/Exp/showAnExp/M_showAnExp.md
-[V_showAnExp]: /chapters/Exp/showAnExp/V_showAnExp.md
-[C_showAnExp]: /chapters/Exp/showAnExp/C_showAnExp.md
 
 ## 附录
 
