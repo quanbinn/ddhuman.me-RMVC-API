@@ -30,7 +30,6 @@ Router-Model+View+Controller-API
 |  **showExps**   |  [R_showExps]   | [M_Experiment] |  [V_showExps]   |  [C_showExps]   |
 |  **showAnExp**  |  [R_showAnExp]  |       /        |  [V_showAnExp]  |  [C_showAnExp]  |
 [R_createAnExp]: /chapters/experiment/showAnExp/R_createAnExp.md
-[M_Experiment]: /chapters/experiment/M_Experiment.md
 [V_createAnExp]: /chapters/experiment/showAnExp/V_createAnExp.md
 [C_createAnExp]: /chapters/experiment/showAnExp/C_createAnExp.md
 [R_showExps]: /chapters/experiment/showExps/R_showExps.md
