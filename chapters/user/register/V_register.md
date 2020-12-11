@@ -1,13 +1,18 @@
-# register
-
-### app/view/users/register.tpl
-
 ```html
+<html>
+  <head>
+    <title>注册</title>
+  </head>
 
-```
-
-```javascript
-
+  <body>
+  <form action="/registerdForm" method="POST">
+    <input type="hidden" name="_csrf" value="{{csrf}}">
+    用户名: <input type="text" name="username"><br>
+    密码: <input type="password" name="password"><br>
+    <button type="submit">注册</button>
+  </form>
+  </body>
+</html>
 ```
 
 

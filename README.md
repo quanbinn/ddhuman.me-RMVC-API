@@ -3,23 +3,20 @@ Router-Model+View+Controller-API
 
 ## **User**
 
-|              |    Router    |    Model     |     View     |  Controller  |
-| :----------: | :----------: | :----------: | :----------: | :----------: |
-| **register** | [R_register] | [M_register] | [V_register] | [C_register] |
-|  **login**   |  [R_login]   |  [M_login]   |  [V_login]   |  [C_login]   |
-|  **logout**  |  [R_logout]  |  [M_logout]  |  [V_logout]  |  [C_logout]  |
+|              |    Router    |  Model   |     View     |  Controller  |
+| :----------: | :----------: | :------: | :----------: | :----------: |
+| **register** | [R_register] |    \     | [V_register] | [C_register] |
+|  **login**   |  [R_login]   | [M_User] |  [V_login]   |  [C_login]   |
+|  **logout**  |  [R_logout]  |    /     |              |  [C_logout]  |
 
 [R_register]: /chapters/user/register/R_register.md
-[M_register]: /chapters/user/register/M_register.md
 [V_register]: /chapters/user/register/V_register.md
 [C_register]: /chapters/user/register/C_register.md
 [R_login]: /chapters/user/login/R_login.md
-[M_login]: /chapters/user/login/M_login.md
+[M_User]: /chapters/user/M_User.md
 [V_login]: /chapters/user/login/V_login.md
 [C_login]: /chapters/user/login/C_login.md
 [R_logout]: /chapters/user/logout/R_logout.md
-[M_logout]: /chapters/user/logout/M_logout.md
-[V_logout]: /chapters/user/logout/V_logout.md
 [C_logout]: /chapters/user/logout/C_logout.md
 
 ## **Equipment**
