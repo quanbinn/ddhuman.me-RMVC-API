@@ -65,9 +65,9 @@
 | :------: | :------: | :---: | :------: | :--------: |
 | **home** | [R_home] |       | [V_home] |  [C_home]  |
 
-[R_home]: /chapters/static_webpage/static_webpage/R_home.md
-[V_home]: /chapters/static_webpage/static_webpage/V_home.md
-[C_home]: /chapters/static_webpage/static_webpage/C_home.md
+[R_home]: /chapters/static_webpage/home/R_home.md
+[V_home]: /chapters/static_webpage/home/V_home.md
+[C_home]: /chapters/static_webpage/home/C_home.md
 
 
 ## 附录
