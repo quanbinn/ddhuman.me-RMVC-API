@@ -1,6 +1,6 @@
 # ddhuman.me-RMVC-API
 
-Router-Model+View+Controller-API
+**Router-Model+View+Controller-API**
 
 ## **User**
 
@@ -59,9 +59,21 @@ Router-Model+View+Controller-API
 [V_exerEquip]: /chapters/equipment/exerEquip/V_exerEquip.md
 [C_exerEquip]: /chapters/equipment/exerEquip/C_exerEquip.md
 
+## **Static webpage**
+
+|          |  Router  | Model |   View   | Controller |
+| :------: | :------: | :---: | :------: | :--------: |
+| **home** | [R_home] |       | [V_home] |  [C_home]  |
+
+[R_home]: /chapters/experiment/showAnExp/R_home.md
+[V_home]: /chapters/experiment/showAnExp/V_home.md
+[C_home]: /chapters/experiment/showAnExp/C_home.md
+
+
 ## 附录
 
   - [用mongoose操控MongoDB](/chapters/附录/用mongoose操控MongoDB.md)
-  - [体验移植MongoDB中documents的原理](/chapters/附录/体验移植MongoDB中documents的原理.md)
-  - [体验提交form发送post请求的原理](/chapters/附录/体验提交form发送post请求的原理.md)
+  - [移植MongoDB中documents的原理](/chapters/附录/移植MongoDB中documents的原理.md)
+  - [提交form发送post请求的原理](/chapters/附录/提交form发送post请求的原理.md)
+  - [实现responsive layout中各网页元素的width占比](/chapters/附录/实现responsive_layout中各网页元素的width占比.md)
 
