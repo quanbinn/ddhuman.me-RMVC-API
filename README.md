@@ -65,9 +65,9 @@
 | :------: | :------: | :---: | :------: | :--------: |
 | **home** | [R_home] |       | [V_home] |  [C_home]  |
 
-[R_home]: /chapters/experiment/showAnExp/R_home.md
-[V_home]: /chapters/experiment/showAnExp/V_home.md
-[C_home]: /chapters/experiment/showAnExp/C_home.md
+[R_home]: /chapters/static_webpage/static_webpage/R_home.md
+[V_home]: /chapters/static_webpage/static_webpage/V_home.md
+[C_home]: /chapters/static_webpage/static_webpage/C_home.md
 
 
 ## 附录

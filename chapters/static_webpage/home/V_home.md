@@ -1,25 +1,3 @@
-# 实现responsive_layout中各网页元素的width占比
-
-## 核心逻辑
-
-1. width: 30% (percent)
-
-单击右方的[在线代码段Url网址](https://codepen.io/quanbinn/pen/QBBmmL)，浏览器里会打开一个新的页面，里面有下面的代码段。
-
-```css
-.column{
-  float: left; text-align: center; 
-  height: 150px; 
-}
-
-.left, .right{width: 30%}
-.middle{width: 40%}
-
-span {
-    float: right;
-}
-```
-
 ```html
 <html>
   <head>
@@ -28,6 +6,13 @@ span {
   </head>
 
   <body>
+	<div class=".column">
+	  <h1><a href="#" class="">首页</a> | 
+	  <a href="/registerForm" class="">注册</a> | 
+	  <a href="/loginForm" class="">登陆</a> | 
+	  <a href="/logout" class="">登出</a></h1>
+	</div>
+	<hr>
 	<div>
 	    <div class="column left">
 	      <h1><a href="/experiments">交互式学习</a></h1>
@@ -58,8 +43,4 @@ span {
   </body>
 </html>
 ```
-
-## Reference
-
-1. [**Responsive web design**](https://en.wikipedia.org/wiki/Responsive_web_design)
 
