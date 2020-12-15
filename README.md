@@ -69,6 +69,13 @@
 [V_home]: /chapters/static_webpage/home/V_home.md
 [C_home]: /chapters/static_webpage/home/C_home.md
 
+## Role and Permission
+
+|      R\P       |      |      |      |      |
+| :------------: | :--: | :--: | :--: | :--: |
+|   **ADMIN**    |  []  |  []  |  []  |  []  |
+| **PAID_USER**  |      |      |      |      |
+| **BASIC_USER** |      |      |      |      |
 
 ## 附录
 
@@ -76,4 +83,5 @@
   - [移植MongoDB中documents的原理](/chapters/附录/移植MongoDB中documents的原理.md)
   - [提交form发送post请求的原理](/chapters/附录/提交form发送post请求的原理.md)
   - [实现responsive layout中各网页元素的width占比](/chapters/附录/实现responsive_layout中各网页元素的width占比.md)
+  - [基于role的access控制系统的核心逻辑](/chapters/附录/基于role的access控制系统的核心逻辑.md)
 
