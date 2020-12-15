@@ -13,7 +13,7 @@ class RegisterController extends Controller {
     let username = ctx.request.body.username;
     let password = ctx.request.body.password;
     await ctx.model.User.create({"username": username, "password": password});
-    ctx.body = "登录成功"
+    ctx.body = "注册成功"
   }
 }
 

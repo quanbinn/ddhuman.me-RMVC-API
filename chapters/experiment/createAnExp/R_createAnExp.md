@@ -1,9 +1,8 @@
-# experiments
-
-### app/router.js
-
 ```javascript
-router.get('/experiments', controller.experiments.list);
+router.get('/experiment/createForm', controller.experiment.getForm);
+
+router.post('/experiment/createdForm', controller.experiment.insertExpData);
+
 ```
 
 

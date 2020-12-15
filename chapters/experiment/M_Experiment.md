@@ -3,7 +3,7 @@ module.exports = app => {
   const mongoose = app.mongoose;
   const Schema = mongoose.Schema;
     
-  const experimentSchema = new Schema({
+  const ExperimentSchema = new Schema({
       title: { type: String }, 
       showImage: { type: String }, 
       url: { type: String }, 
