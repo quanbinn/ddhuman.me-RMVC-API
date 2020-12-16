@@ -81,28 +81,23 @@
 
 - Mongoose
 	- [用mongoose操控MongoDB](/chapters/附录/用mongoose操控MongoDB.md)
+	- [移植MongoDB中documents的原理](/chapters/附录/移植MongoDB中documents的原理.md)
 
 |                 |  C   |  R   |  U   |  D   |
 | :-------------: | :--: | :--: | :--: | :--: |
 |    **users**    |  []  |  []  |  []  |  []  |
 | **experiments** |  []  |  []  |  []  |  []  |
 
-	- [移植MongoDB中documents的原理](/chapters/附录/移植MongoDB中documents的原理.md)
-  
 - POST
-  
-  - [提交form发送post请求的原理](/chapters/附录/提交form发送post请求的原理.md)
+    - [提交form发送post请求的原理](/chapters/附录/提交form发送post请求的原理.md)
   
 - Roles based access control
-  
-  - [基于role的access控制系统的核心逻辑](/chapters/附录/基于role的access控制系统的核心逻辑.md)
+    - [基于role的access控制系统的核心逻辑](/chapters/附录/基于role的access控制系统的核心逻辑.md)
   
 - Rresponsive layout
-
   - [实现responsive layout中各网页元素的width占比](/chapters/附录/实现responsive_layout中各网页元素的width占比.md)
 
 - Session 和 cookies
-
   - [理解在session中用cookies存储用户名和密码的原理](/chapters/附录/理解在session中用cookies存储用户名和密码的原理.md)
 
 
