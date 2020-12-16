@@ -1,0 +1,18 @@
+# 理解在session中用cookies存储用户名和密码的原理
+
+1. 
+
+单击右方的[在线代码段Url网址]()，浏览器里会打开一个新的页面，里面有下面的代码段。
+
+```css
+
+```
+
+```html
+
+```
+
+## Reference
+
+1. [****](https://en.wikipedia.org/wiki/Role-based_access_control)
+
