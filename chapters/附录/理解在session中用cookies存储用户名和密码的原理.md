@@ -86,4 +86,6 @@ await this.ctx.render('news', {username: username});
 1. [**Session (computer science)**](https://en.wikipedia.org/wiki/Session_(computer_science))
 2. [**Session ID**](https://en.wikipedia.org/wiki/Session_ID)
 3. [HTTP cookie](https://en.wikipedia.org/wiki/HTTP_cookie)
+4. [Egg.js中Cookie的使用](https://www.bilibili.com/video/BV1ub411m7Fs?p=7)
+5. [Egg.js中Session的使用](https://www.bilibili.com/video/BV1ub411m7Fs?p=8)
 
