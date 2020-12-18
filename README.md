@@ -97,6 +97,13 @@
 - Rresponsive layout
   - [实现responsive layout中各网页元素的width占比](/chapters/附录/实现responsive_layout中各网页元素的width占比.md)
 
+
+|                 |     |    |    |    |
+| :-------------: | :--: | :--: | :--: | :--: |
+|    **format1**    |  []  |  []  |  []  |  []  |
+| **format2** |  []  |  []  |  []  |  []  |
+
+
 - Session 和 cookies
   - [理解在session中用cookies存储用户名和密码的原理](/chapters/附录/理解在session中用cookies存储用户名和密码的原理.md)
 

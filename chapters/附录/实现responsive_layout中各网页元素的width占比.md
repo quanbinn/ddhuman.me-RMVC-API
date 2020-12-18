@@ -61,5 +61,10 @@ span {
 
 ## Reference
 
-1. [**Responsive web design**](https://en.wikipedia.org/wiki/Responsive_web_design)
+1. [.class, #id from CSS](https://en.wikipedia.org/wiki/CSS)
+2. [**Responsive web design from Wikipedia**](https://en.wikipedia.org/wiki/Responsive_web_design)
+3. [*.class* Selector](https://www.w3schools.com/cssref/sel_class.asp)
+4. [#*id* Selector](https://www.w3schools.com/cssref/sel_id.asp)
+5. [**What is Responsive Web Design?**](https://www.w3schools.com/whatis/whatis_responsive.asp)
+6. [**W3.CSS Framework**](https://www.w3schools.com/w3css/default.asp)
 
