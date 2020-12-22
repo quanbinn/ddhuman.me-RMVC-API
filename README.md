@@ -80,13 +80,18 @@
 ## 附录
 
 - Mongoose
-	- [用mongoose操控MongoDB](/chapters/附录/用mongoose操控MongoDB.md)
-	- [移植MongoDB中documents的原理](/chapters/附录/移植MongoDB中documents的原理.md)
+	- [用mongoose操控MongoDB](/chapters/附录/mongoose_CRUD_collections/用mongoose操控MongoDB.md)
+	- [移植MongoDB中documents的原理](/chapters/附录//mongoose_CRUD_collections/移植MongoDB中documents的原理.md)
 
 |                 |  C   |  R   |  U   |  D   |
 | :-------------: | :--: | :--: | :--: | :--: |
 |    **users**    |  []  |  []  |  []  |  []  |
 | **experiments** |  []  |  []  |  []  |  []  |
+
+[]: /chapters/附录/mongoose_CRUD_collections/****.md
+[]: /chapters/附录/home/mongoose_CRUD_collections/****.md
+[]: /chapters/附录/home/mongoose_CRUD_collections/****.md
+[]: /chapters/附录/home/mongoose_CRUD_collections/****.md
 
 - POST
     - [提交form发送post请求的原理](/chapters/附录/提交form发送post请求的原理.md)
@@ -94,17 +99,24 @@
 - Roles based access control
     - [基于role的access控制系统的核心逻辑](/chapters/附录/基于role的access控制系统的核心逻辑.md)
   
-- Rresponsive layout
-  - [实现responsive layout中各网页元素的width占比](/chapters/附录/实现responsive_layout中各网页元素的width占比.md)
+- CSS和Rresponsive layout
+  - [实现responsive layout中各网页元素的width占比](/chapters/附录/CSS_Rresponsive_layout/实现responsive_layout中各网页元素的width占比.md)
+  - [iphone和laptop的显示屏幕的像素尺寸和实体尺寸](/chapters/附录/CSS_Rresponsive_layout/iphone和laptop的显示屏幕的像素尺寸和实体尺寸.md)
+  - [计算出iphone和laptop中image和video渲染前自适应高度的公式](/chapters/附录/CSS_Rresponsive_layout/计算出iphone和laptop中image和video渲染前自适应高度的公式.md)
+  - [确定iphone和laptop中text渲染后的实体尺寸](/chapters/附录/CSS_Rresponsive_layout/确定iphone和laptop中text渲染后的实体尺寸.md)
+  - [计算出iphone和laptop中text渲染时的实际像素值的公式](/chapters/附录/CSS_Rresponsive_layout/计算出iphone和laptop中text渲染时的实际像素值的公式.md)
 
 
 |                 |     |    |    |    |
 | :-------------: | :--: | :--: | :--: | :--: |
-|    **format1**    |  []  |  []  |  []  |  []  |
-| **format2** |  []  |  []  |  []  |  []  |
+|    **Element1**    |  [body]  |  [column]  |  [image]  |  [video]  |
 
+[body]: /chapters/附录/CSS_Rresponsive_layout/body.md
+[column]: /chapters/附录/CSS_Rresponsive_layout/column.md
+[image]: /chapters/附录/CSS_Rresponsive_layout/image.md
+[video]: /chapters/附录/CSS_Rresponsive_layout/video.md
 
-- Session 和 cookies
+- Session和cookies
   - [理解在session中用cookies存储用户名和密码的原理](/chapters/附录/理解在session中用cookies存储用户名和密码的原理.md)
 
 

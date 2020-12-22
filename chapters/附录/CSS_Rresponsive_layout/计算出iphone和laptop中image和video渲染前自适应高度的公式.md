@@ -1,0 +1,1 @@
+# 计算出iphone和laptop中image和video渲染前自适应高度的公式
