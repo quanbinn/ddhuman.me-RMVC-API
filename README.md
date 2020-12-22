@@ -109,12 +109,17 @@
 
 |                 |     |    |    |    |
 | :-------------: | :--: | :--: | :--: | :--: |
-|    **Element1**    |  [body]  |  [column]  |  [image]  |  [video]  |
+|    **Laptop**    |  [body]  |  [column]  |  [image]  |  [video]  |
+| **Mobile** | [@media-body] | [@media-column] | [@media-image] | [@media-video] |
 
 [body]: /chapters/附录/CSS_Rresponsive_layout/body.md
 [column]: /chapters/附录/CSS_Rresponsive_layout/column.md
 [image]: /chapters/附录/CSS_Rresponsive_layout/image.md
 [video]: /chapters/附录/CSS_Rresponsive_layout/video.md
+[@media-body]: /chapters/附录/CSS_Rresponsive_layout/@media-body.md
+[@media-column]: /chapters/附录/CSS_Rresponsive_layout/@media-column.md
+[@media-image]: /chapters/附录/CSS_Rresponsive_layout/@media-image.md
+[@media-video]: /chapters/附录/CSS_Rresponsive_layout/@media-video.md
 
 - Session和cookies
   - [理解在session中用cookies存储用户名和密码的原理](/chapters/附录/理解在session中用cookies存储用户名和密码的原理.md)
