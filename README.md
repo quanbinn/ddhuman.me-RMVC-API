@@ -89,9 +89,9 @@
 | **experiments** |    []    |    []    |    []    |    []    |
 
 [usersC]: /chapters/附录/mongoose_CRUD_collections/usersC.md
-[usersR]: /chapters/附录/home/mongoose_CRUD_collections/usersR.md
-[usersU]: /chapters/附录/home/mongoose_CRUD_collections/usersU.md
-[usersD]: /chapters/附录/home/mongoose_CRUD_collections/usersD.md
+[usersR]: /chapters/附录/mongoose_CRUD_collections/usersR.md
+[usersU]: /chapters/附录/mongoose_CRUD_collections/usersU.md
+[usersD]: /chapters/附录/mongoose_CRUD_collections/usersD.md
 
 - POST
     - [提交form发送post请求的原理](/chapters/附录/提交form发送post请求的原理.md)
