@@ -85,13 +85,17 @@
 
 |                 |    Create    |    Read    |    Update    |    Delete    |
 | :-------------: | :----------: | :--------: | :----------: | :----------: |
-|    **users**    | [userCreate] | [userRead] | [userUpdate] | [userDelete] |
-| **experiments** |      []      |     []     |      []      |      []      |
+|    **users**    |[userCreate] | [userRead] | [userUpdate]|[userDelete] |
+|**experiments**|[experimentCreate]|[experimentRead]|[experimentUpdate]|  [experimentDelete]|
 
 [userCreate]: /chapters/附录/mongoose_CRUD_collections/userCreate.md
 [userRead]: /chapters/附录/mongoose_CRUD_collections/userRead.md
 [userUpdate]: /chapters/附录/mongoose_CRUD_collections/userUpdate.md
 [userDelete]: /chapters/附录/mongoose_CRUD_collections/userDelete.md
+[experimentCreate]: /chapters/附录/mongoose_CRUD_collections/experimentCreate.md
+[experimentRead]: /chapters/附录/mongoose_CRUD_collections/experimentRead.md
+[experimentUpdate]: /chapters/附录/mongoose_CRUD_collections/experimentUpdate.md
+[experimentDelete]: /chapters/附录/mongoose_CRUD_collections/experimentDelete.md
 
 - POST
     - [提交form发送post请求的原理](/chapters/附录/提交form发送post请求的原理.md)
