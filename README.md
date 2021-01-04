@@ -90,7 +90,7 @@
 
 [usersC]: /chapters/附录/mongoose_CRUD_collections/usersC.md
 [usersR]: /chapters/附录/home/mongoose_CRUD_collections/usersR.md
-[usersR]: /chapters/附录/home/mongoose_CRUD_collections/usersR.md
+[usersU]: /chapters/附录/home/mongoose_CRUD_collections/usersU.md
 [usersD]: /chapters/附录/home/mongoose_CRUD_collections/usersD.md
 
 - POST
