@@ -85,7 +85,7 @@
 
 |                 |    C     |    R     |    U     |    D     |
 | :-------------: | :------: | :------: | :------: | :------: |
-|    **users**    | [usersC] | [usersR] | [usersR] | [usersD] |
+|    **users**    | [usersC] | [usersR] | [usersU] | [usersD] |
 | **experiments** |    []    |    []    |    []    |    []    |
 
 [usersC]: /chapters/附录/mongoose_CRUD_collections/usersC.md
