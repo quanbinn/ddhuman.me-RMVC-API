@@ -83,7 +83,7 @@
 	- [用mongoose操控MongoDB](/chapters/附录/mongoose_CRUD_collections/用mongoose操控MongoDB.md)
 	- [移植MongoDB中documents的原理](/chapters/附录//mongoose_CRUD_collections/移植MongoDB中documents的原理.md)
 
-|                 |    C     |    R     |    U     |    D     |
+|                 |  Create  |   Read   |  Update  |  Delete  |
 | :-------------: | :------: | :------: | :------: | :------: |
 |    **users**    | [usersC] | [usersR] | [usersU] | [usersD] |
 | **experiments** |    []    |    []    |    []    |    []    |
