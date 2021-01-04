@@ -83,15 +83,15 @@
 	- [用mongoose操控MongoDB](/chapters/附录/mongoose_CRUD_collections/用mongoose操控MongoDB.md)
 	- [移植MongoDB中documents的原理](/chapters/附录//mongoose_CRUD_collections/移植MongoDB中documents的原理.md)
 
-|                 |  Create  |   Read   |  Update  |  Delete  |
-| :-------------: | :------: | :------: | :------: | :------: |
-|    **users**    | [usersC] | [usersR] | [usersU] | [usersD] |
-| **experiments** |    []    |    []    |    []    |    []    |
+|                 |    Create    |    Read    |    Update    |    Delete    |
+| :-------------: | :----------: | :--------: | :----------: | :----------: |
+|    **users**    | [userCreate] | [userRead] | [userUpdate] | [userDelete] |
+| **experiments** |      []      |     []     |      []      |      []      |
 
-[usersC]: /chapters/附录/mongoose_CRUD_collections/usersC.md
-[usersR]: /chapters/附录/mongoose_CRUD_collections/usersR.md
-[usersU]: /chapters/附录/mongoose_CRUD_collections/usersU.md
-[usersD]: /chapters/附录/mongoose_CRUD_collections/usersD.md
+[userCreate]: /chapters/附录/mongoose_CRUD_collections/userCreate.md
+[userRead]: /chapters/附录/mongoose_CRUD_collections/userRead.md
+[userUpdate]: /chapters/附录/mongoose_CRUD_collections/userUpdate.md
+[userDelete]: /chapters/附录/mongoose_CRUD_collections/userDelete.md
 
 - POST
     - [提交form发送post请求的原理](/chapters/附录/提交form发送post请求的原理.md)

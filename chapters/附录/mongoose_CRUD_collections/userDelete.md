@@ -1,4 +1,4 @@
-# usersUpdate
+# userDelete
 
 ### this.ctx.model.User == db.users
 

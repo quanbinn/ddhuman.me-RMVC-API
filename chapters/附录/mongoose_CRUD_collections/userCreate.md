@@ -1,4 +1,4 @@
-# usersCreate
+# userCreate
 
 ### this.ctx.model.User == db.users
 

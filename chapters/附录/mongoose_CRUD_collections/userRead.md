@@ -1,4 +1,4 @@
-# usersRead
+# userRead
 
 ### this.ctx.model.User == db.users
 
