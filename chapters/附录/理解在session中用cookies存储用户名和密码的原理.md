@@ -1,6 +1,9 @@
 # 理解在session中用cookies存储用户名和密码的原理
 
+![](/images/附录/csrf-cookie-session.jpg)
+
 ## 单独使用cookie的原理
+
 1. 浏览器端通过**http的post请求**发送注册或登录时用户名和密码的key-value信息；
 2. 服务器端在进行数据库**CRUD**操作的同时，把用户名和密码的key-value信息存在一个**object**（通常需要对密码进行加密）里；
 3. 同时把这个**object**回传给浏览器。这个**object**被称为**cookie**。
@@ -86,6 +89,7 @@ await this.ctx.render('news', {username: username});
 1. [**Session (computer science)**](https://en.wikipedia.org/wiki/Session_(computer_science))
 2. [**Session ID**](https://en.wikipedia.org/wiki/Session_ID)
 3. [HTTP cookie](https://en.wikipedia.org/wiki/HTTP_cookie)
-4. [Egg.js中Cookie的使用](https://www.bilibili.com/video/BV1ub411m7Fs?p=7)
-5. [Egg.js中Session的使用](https://www.bilibili.com/video/BV1ub411m7Fs?p=8)
+4. [**Cross-site request forgery**](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
+5. [Egg.js中Cookie的使用](https://www.bilibili.com/video/BV1ub411m7Fs?p=7)
+6. [Egg.js中Session的使用](https://www.bilibili.com/video/BV1ub411m7Fs?p=8)
 
