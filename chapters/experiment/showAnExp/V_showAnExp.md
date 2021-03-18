@@ -1,19 +1,15 @@
 ```html
-<html>
-  <head>
-    <title>DDHuman.me</title>
-  </head>
-  <body>
-  	<ul>
-      {% for item in list %}
-      	<li>
-      		<a href="{{ item.url }}">{{ item.title }}</a>
-			<a href="{{ item.url }}"><img src="{{ item.showImage }}" alt="{{ item.title }}" width="200"></a>
-      	</li>
-      {% endfor %}  		
-  	</ul>
-  </body>
-</html>
+  {% if exp.videoAddr %}
+    <video width=100% controls="controls" autoplay="autoplay">
+      <source src="{{ exp.videoAddr }}" type="video/mp4">
+    </video>
+  {% else %}
+    <img src="{{ exp.bigImgAddr }}" alt="{{ exp.expname }}" style="width:100%;">
+  {% endif %}
+
+  <a href="{{exp.procedureUrl}}">
+    <h3>实验步骤：{{ exp.expname }}</h3>
+  </a>
 ```
 
 

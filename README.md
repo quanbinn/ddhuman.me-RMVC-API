@@ -25,8 +25,10 @@
 |                 |     Router      |     Model      |      View       |   Controller    |
 | :-------------: | :-------------: | :------------: | :-------------: | :-------------: |
 | **createAnExp** | [R_createAnExp] |       \        | [V_createAnExp] | [C_createAnExp] |
-|  **showExps**   |  [R_showExps]   | [M_Experiment] |  [V_showExps]   |  [C_showExps]   |
-|  **showAnExp**  |  [R_showAnExp]  |       /        |  [V_showAnExp]  |  [C_showAnExp]  |
+|  **showExps**   |  [R_showExps]   |       \        |  [V_showExps]   |  [C_showExps]   |
+|  **showAnExp**  |  [R_showAnExp]  | [M_Experiment] |  [V_showAnExp]  |  [C_showAnExp]  |
+|  **editAnExp**  |  [R_editAnExp]  |       /        |  [V_editAnExp]  |  [C_editAnExp]  |
+|  **deleteAnExp**|  [R_deleteAnExp]|       /        |                 |  [C_deleteAnExp]|
 
 [R_createAnExp]: /chapters/experiment/showAnExp/R_createAnExp.md
 [V_createAnExp]: /chapters/experiment/showAnExp/V_createAnExp.md
@@ -37,27 +39,35 @@
 [R_showAnExp]: /chapters/experiment/showAnExp/R_showAnExp.md
 [V_showAnExp]: /chapters/experiment/showAnExp/V_showAnExp.md
 [C_showAnExp]: /chapters/experiment/showAnExp/C_showAnExp.md
+[R_editAnExp]: /chapters/experiment/editAnExp/R_editAnExp.md
+[V_editAnExp]: /chapters/experiment/editAnExp/V_editAnExp.md
+[C_editAnExp]: /chapters/experiment/editAnExp/C_editAnExp.md
+[R_deleteAnExp]: /chapters/experiment/deleteAnExp/R_deleteAnExp.md
+[C_deleteAnExp]: /chapters/experiment/deleteAnExp/C_deleteAnExp.md
 [M_Experiment]: /chapters/experiment/M_Experiment.md
-## **Equipment**
 
-|              |    Router    |    Model     |     View     |  Controller  |
-| :----------: | :----------: | :----------: | :----------: | :----------: |
-| **learnEquip** | [R_learnEquip] | [M_learnEquip] | [V_learnEquip] | [C_learnEquip] |
-| **workEquip**  | [R_workEquip]  | [M_workEquip]  | [V_workEquip]  | [C_workEquip]  |
-| **exerEquip** | [R_exerEquip] | [M_exerEquip] | [V_exerEquip] | [C_exerEquip] |
+## **Goods**
 
-[R_learnEquip]: /chapters/equipment/learnEquip/R_learnEquip.md
-[M_learnEquip]: /chapters/equipment/learnEquip/M_learnEquip.md
-[V_learnEquip]: /chapters/equipment/learnEquip/V_learnEquip.md
-[C_learnEquip]: /chapters/equipment/learnEquip/C_learnEquip.md
-[R_workEquip]: /chapters/equipment/workEquip/R_workEquip.md
-[M_workEquip]: /chapters/equipment/workEquip/M_workEquip.md
-[V_workEquip]: /chapters/equipment/workEquip/V_workEquip.md
-[C_workEquip]: /chapters/equipment/workEquip/C_workEquip.md
-[R_exerEquip]: /chapters/equipment/exerEquip/R_exerEquip.md
-[M_exerEquip]: /chapters/equipment/exerEquip/M_exerEquip.md
-[V_exerEquip]: /chapters/equipment/exerEquip/V_exerEquip.md
-[C_exerEquip]: /chapters/equipment/exerEquip/C_exerEquip.md
+|                  |      Router      |       Model      |       View       |    Controller    |
+| :--------------: | :--------------: | :--------------: | :--------------: | :--------------: |
+| **createAGoods** | [R_createAGoods] |         \        | [V_createAGoods] | [C_createAGoods] |
+| **showAGoods**   | [R_showAGoods]   |    [M_Goods]     | [V_showAGoods]   | [C_showAGoods]   |
+| **editAGoods**   | [R_editAGoods]   |       /          | [V_editAGoods]   | [C_editAGoods]   |
+| **deleteAGoods** | [R_deleteAGoods] |       /          | [V_deleteAGoods] | [C_deleteAGoods] |
+
+[R_createAGoods]: /chapters/goods/createAGoods/R_createAGoods.md
+[V_createAGoods]: /chapters/goods/createAGoods/V_createAGoods.md
+[C_createAGoods]: /chapters/goods/createAGoods/C_createAGoods.md
+[R_showAGoods]: /chapters/goods/showAGoods/R_showAGoods.md
+[V_showAGoods]: /chapters/goods/showAGoods/V_showAGoods.md
+[C_showAGoods]: /chapters/goods/showAGoods/C_showAGoods.md
+[R_editAGoods]: /chapters/goods/editAGoods/R_editAGoods.md
+[V_editAGoods]: /chapters/goods/editAGoods/V_editAGoods.md
+[C_editAGoods]: /chapters/goods/editAGoods/C_editAGoods.md
+[R_deleteAGoods]: /chapters/goods/deleteAGoods/R_deleteAGoods.md
+[V_deleteAGoods]: /chapters/goods/deleteAGoods/V_deleteAGoods.md
+[C_deleteAGoods]: /chapters/goods/deleteAGoods/C_deleteAGoods.md
+[M_Goods]: /chapters/goods/M_Goods.md
 
 ## **Static webpage**
 

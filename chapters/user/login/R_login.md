@@ -1,6 +1,5 @@
 ```javascript
-  router.get('/loginForm', controller.login.getForm);
-
-  router.post('/loginedForm', controller.login.checkUserData);
+get('/user/loginForm', user.getLoginForm);
+post('/user/loginedForm', user.checkUserData);
 ```
 

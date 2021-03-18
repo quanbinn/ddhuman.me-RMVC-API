@@ -1,9 +1,6 @@
-
-
 ```javascript
-  router.get('/registerForm', controller.register.getForm);
-
-  router.post('/registeredForm', controller.register.insertUserData);
+get('/user/registerForm', user.getRegisterForm);				
+post('/user/registerdForm', user.insertUserData);
 ```
 
 

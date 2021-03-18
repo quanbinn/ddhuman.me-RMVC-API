@@ -1,46 +1,39 @@
 ```html
-<html>
-  <head>
-    <title>首页</title>
-    <link rel="stylesheet" type="text/css" href="public/css/style.css">
-  </head>
+	<div style="display:flex; flex-wrap:wrap">
 
-  <body>
-	<div class=".column">
-	  <h1><a href="#" class="">首页</a> | 
-	  <a href="/registerForm" class="">注册</a> | 
-	  <a href="/loginForm" class="">登陆</a> | 
-	  <a href="/logout" class="">登出</a></h1>
+		<div class="textOverImage">
+		  <a href="/physicalLearning"><img src="/public/upload/首页/实体学习.jpg" alt="实体学习" style="width:100%;"></a>
+		  <a href="/physicalLearning"><span class="centered">实体学习</span></a>
+		</div>
+
+		<div class="textOverImage">
+		  <a href="/standWorking"><img src="/public/upload/首页/站立工作.jpg" alt="拆分工作" style="width:100%;"></a>
+		  <a href="/standWorking"><span class="centered">站立工作</span></a>
+		</div>
+
+		<div class="textOverImage">
+		  <a href="/speedyShopping"><img src="/public/upload/首页/极速购物.jpg" alt="极速购物" style="width:100%;"></a>
+		  <a href="/speedyShopping"><span class="centered">极速购物</span></a>
+		</div>
+
+		<div class="textOverImage">
+		  <a href="/anatomyExercise"><img src="/public/upload/首页/解剖锻炼.jpg" alt="防卫锻炼" style="width:100%;"></a>
+		  <a href="/anatomyExercise"><span class="centered">解剖锻炼</span></a>
+		</div>
+
+		<div class="textOverImage">
+		  <a href="/healthyDiet"><img src="/public/upload/首页/健康饮食.jpg" alt="健康饮食" style="width:100%;"></a>
+		  <a href="/healthyDiet"><span class="centered">健康饮食</span></a>
+		</div>
+
+		<div class="textOverImage">
+		  <a href="/defenseIllnessDanger"><img src="/public/upload/首页/防病防险.jpg" alt="防病防险" style="width:100%;"></a>
+		  <a href="/defenseIllnessDanger"><span class="centered">防病防险</span></a>
+		</div>
+
 	</div>
-	<hr>
-	<div>
-	    <div class="column left">
-	      <h1><a href="/experiments">交互式学习</a></h1>
-	    </div>
-	    <div class="column middle"></div>  
-	    <div class="column right">
-	      <h1><a href="">极简工作</a></h1>
-	    </div>
-	  </div>
 
-	  <div>
-	    <div class="column left"></div>
-	    <div class="column middle">
-	      <h1><a href="">极速购物</a></h1></div>  
-	    <div class="column right"></div>
-	  </div>
-
-	  <div>
-	    <div class="column left">
-	      <h1><a href="">健康饮食</a></h1> 
-	    </div>
-	    <div class="column middle"></div>  
-	    <div class="column right">
-	      <h1><a href="">防病防险</a></h1>
-	      <h1><a href="">防卫性锻炼</a></h1>
-	    </div>
-	  </div>
-  </body>
-</html>
+	<!-- the following code can call the js code in the public/js folder -->
+	<!--  <script type="text/javascript" src="/public/js/test.js"></script> -->
 ```
 

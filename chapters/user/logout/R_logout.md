@@ -1,4 +1,4 @@
 ```javascript
-router.post('/logout', controller.logout.removePermission);
+get('/user/logout', user.logout);  
 ```
 

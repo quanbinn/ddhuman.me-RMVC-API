@@ -1,4 +1,4 @@
 ```javascript
-router.get('/', controller.home.index);
+get('/', home.index);
 ```
 

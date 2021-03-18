@@ -1,18 +1,17 @@
 ```javascript
-const Controller = require("egg").Controller;
+const Controller = require('egg').Controller;
 
-class LogoutController extends Controller {
-  async removePermission() {
-    const { ctx } = this;
-    // console.log(ctx.request.body);
-    // let username = ctx.request.body.username;
-    // let password = ctx.request.body.password;
-    // check user data
-    // await ctx.model.User.create({"username": username, "password": password});
-    // ctx.body = "登录成功"
+class UserController extends Controller {
+  async logout() { const { ctx } = this;  
+      ctx.session.username = null;
+      ctx.session.password = null;    
+      ctx.session.role = null;
+
+      await ctx.redirect("/"); 
   }
+
 }
 
-module.exports = LogoutController;
+module.exports = UserController;
 ```
 

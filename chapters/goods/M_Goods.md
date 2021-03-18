@@ -3,18 +3,17 @@ module.exports = app => {
   const mongoose = app.mongoose;
   const Schema = mongoose.Schema;
     
-  const ExperimentSchema = new Schema({
-      expname: { type: String }, 
+  const GoodsSchema = new Schema({
+      goodsname: { type: String }, 
       smallImgAddr: { type: String }, 
       bigImgAddr: { type: String },       
-      videoAddr: { type: String },            
-      procedureUrl: { type: String },
+      purchaseUrl: { type: String },
       category: { type: String }, 
       subcategory: { type: String },         
       createdAt: { type: Date},
   });
 
-  return mongoose.model('Experiment', ExperimentSchema);
+  return mongoose.model('Goods', GoodsSchema);
 }
 ```
 

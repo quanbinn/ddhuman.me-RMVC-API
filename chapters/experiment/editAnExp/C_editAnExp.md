@@ -7,11 +7,9 @@ const Controller = require('egg').Controller;
 
 class ExperimentController extends Controller {
 
-  async getCreateForm() { const { ctx } = this; 
-    await ctx.render("experiment/create.tpl", {title:'创建新实验'});
-  };
+  async editExpData() { const { ctx } = this;      
+    let expId = ctx.params.id;
 
-  async insertExpData() { const { ctx } = this;
     const parts = ctx.multipart({ autoFields: true });
 
     let stream;
@@ -29,12 +27,13 @@ class ExperimentController extends Controller {
 
     delete parts.field["_csrf"];       //let {} = parts.field;
 
-    await ctx.model.Experiment.create({
-                                        ...parts.field,     // grammar sugar
+    await ctx.model.Experiment.findOneAndUpdate({_id: expId}, {
+                                        ...parts.field,     // grammar sugar                                  
                                        "createdAt": new Date(),
                                      });
-    ctx.body = "<h1>创建新实验成功</h1>";         
+    ctx.redirect("/admin/experiment/adminShowAll");          
   };
+
 
 }
 
