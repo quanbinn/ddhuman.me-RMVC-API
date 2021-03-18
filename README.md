@@ -46,7 +46,7 @@
 [C_deleteAnExp]: /chapters/experiment/deleteAnExp/C_deleteAnExp.md
 [M_Experiment]: /chapters/experiment/M_Experiment.md
 
-## **Goods** (todo)
+## **Goods**
 
 |                  |      Router      |       Model      |       View       |    Controller    |
 | :--------------: | :--------------: | :--------------: | :--------------: | :--------------: |

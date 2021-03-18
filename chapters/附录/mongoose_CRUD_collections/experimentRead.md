@@ -1,5 +1,3 @@
-# experimentRead
-
 ### this.ctx.model.Experiment == db.experiments
 
 ```javascript

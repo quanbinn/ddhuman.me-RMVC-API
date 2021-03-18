@@ -1,9 +1,11 @@
-# userCreate
-
 ### this.ctx.model.User == db.users
 
 ```javascript
-this.ctx.model.User.create({"username": "dataFromBrowser", 
-                            "password": "dataFromBrowserAfterMD5"});
+ctx.model.User.create({
+                               "username": username, 
+                                "password": password,
+                                "role": "普通用户", 
+                                "createdAt": new Date()
+                            });
 ```
 

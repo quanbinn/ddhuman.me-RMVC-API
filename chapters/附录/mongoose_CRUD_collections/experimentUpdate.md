@@ -1,13 +1,9 @@
-# experimentUpdate
-
 ### this.ctx.model.Experiment == db.experiments
 
 ```javascript
-this.ctx.model.Experiment.create({"title": title, 
-                                  "showImage": showImage, 
-                                  "url": url, 
-                                  "category": category, 
-                                  "createdAt": new Date()
-                                 });
+ctx.model.Experiment.findOneAndUpdate({_id: expId}, {
+                                        ...parts.field,     // grammar sugar                                  
+                                       "createdAt": new Date(),
+                                     });
 ```
 
