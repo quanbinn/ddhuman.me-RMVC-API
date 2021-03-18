@@ -1,6 +1,6 @@
 ```javascript
-get('/admin/experiment/createForm', experiment.getCreateForm);
-post('/admin/experiment/createdForm', experiment.insertExpData);
+  get('/admin/goods/editForm/:id', goods.getEditForm);
+  post('/admin/goods/editedForm/:id', goods.editGoodsData);
 ```
 
 

@@ -5,13 +5,12 @@ const pump = require('mz-modules/pump');
 
 const Controller = require('egg').Controller;
 
-class ExperimentController extends Controller {
-
+class GoodsController extends Controller {
   async getCreateForm() { const { ctx } = this; 
-    await ctx.render("experiment/create.tpl", {title:'创建新实验'});
+  	await ctx.render("goods/create.tpl", {title:'创建新商品'});
   };
 
-  async insertExpData() { const { ctx } = this;
+  async insertGoodsData() { const { ctx } = this;
     const parts = ctx.multipart({ autoFields: true });
 
     let stream;
@@ -20,7 +19,7 @@ class ExperimentController extends Controller {
           return;
         }       
 
-        const target = 'app/public/upload/'+parts.field['category']+'/'+parts.field['subcategory']+'/'+parts.field['expname']+'/'+path.basename(stream.filename);
+        const target = 'app/public/upload/'+parts.field['category']+'/'+parts.field['subcategory']+'/'+parts.field['goodsname']+'/'+path.basename(stream.filename);
         parts.field[stream.fieldname] = target.replace("app","");         
 
         const writeStream = fs.createWriteStream(target);
@@ -29,16 +28,16 @@ class ExperimentController extends Controller {
 
     delete parts.field["_csrf"];       //let {} = parts.field;
 
-    await ctx.model.Experiment.create({
+    await ctx.model.Goods.create({
                                         ...parts.field,     // grammar sugar
                                        "createdAt": new Date(),
                                      });
-    ctx.body = "<h1>创建新实验成功</h1>";         
+    ctx.body = "创建新商品成功";         
   };
 
 }
 
-module.exports = ExperimentController;
+module.exports = GoodsController; 
 ```
 
 
