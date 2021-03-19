@@ -69,28 +69,28 @@
 [C_deleteAGoods]: /chapters/goods/deleteAGoods/C_deleteAGoods.md
 [M_Goods]: /chapters/goods/M_Goods.md
 
-## **Course**
+## **Lesson**
 
 |                  |      Router      |       Model      |       View       |    Controller    |
 | :--------------: | :--------------: | :--------------: | :--------------: | :--------------: |
-| 	   **C**	   | [R_createACourse]|         \        | [V_createACourse]| [C_createACourse]|
-| 	   **R**	   | [R_showACourse]  |    [M_Course]    | [V_showACourse]  | [C_showACourse]  |
-| 	   **U**	   | [R_editACourse]  |         /         | [V_editACourse]  | [C_editACourse]  |
-| 	   **D**	   | [R_deleteACourse]|        /          | [V_deleteACourse]| [C_deleteACourse]|
+| 	   **C**	   | [R_createALesson]|         \        | [V_createALesson]| [C_createALesson]|
+| 	   **R**	   | [R_showALesson]  |    [M_Lesson]    | [V_showALesson]  | [C_showALesson]  |
+| 	   **U**	   | [R_editALesson]  |         /         | [V_editALesson]  | [C_editALesson]  |
+| 	   **D**	   | [R_deleteALesson]|        /          | [V_deleteALesson]| [C_deleteALesson]|
 
-[R_createACourse]: /chapters/course/createACourse/R_createACourse.md
-[V_createACourse]: /chapters/course/createACourse/V_createACourse.md
-[C_createACourse]: /chapters/course/createACourse/C_createACourse.md
-[R_showACourse]: /chapters/course/showACourse/R_showACourse.md
-[V_showACourse]: /chapters/course/showACourse/V_showACourse.md
-[C_showACourse]: /chapters/course/showACourse/C_showACourse.md
-[R_editACourse]: /chapters/course/editACourse/R_editACourse.md
-[V_editACourse]: /chapters/course/editACourse/V_editACourse.md
-[C_editACourse]: /chapters/course/editACourse/C_editACourse.md
-[R_deleteACourse]: /chapters/course/deleteACourse/R_deleteACourse.md
-[V_deleteACourse]: /chapters/course/deleteACourse/V_deleteACourse.md
-[C_deleteACourse]: /chapters/course/deleteACourse/C_deleteACourse.md
-[M_Course]: /chapters/course/M_Course.md
+[R_createALesson]: /chapters/lesson/createALesson/R_createALesson.md
+[V_createALesson]: /chapters/lesson/createALesson/V_createALesson.md
+[C_createALesson]: /chapters/lesson/createALesson/C_createALesson.md
+[R_showALesson]: /chapters/lesson/showALesson/R_showALesson.md
+[V_showALesson]: /chapters/lesson/showALesson/V_showALesson.md
+[C_showALesson]: /chapters/lesson/showALesson/C_showALesson.md
+[R_editALesson]: /chapters/lesson/editALesson/R_editALesson.md
+[V_editALesson]: /chapters/lesson/editALesson/V_editALesson.md
+[C_editALesson]: /chapters/lesson/editALesson/C_editALesson.md
+[R_deleteALesson]: /chapters/lesson/deleteALesson/R_deleteALesson.md
+[V_deleteALesson]: /chapters/lesson/deleteALesson/V_deleteALesson.md
+[C_deleteALesson]: /chapters/lesson/deleteALesson/C_deleteALesson.md
+[M_Lesson]: /chapters/lesson/M_Lesson.md
 
 ## **Static webpage**
 
@@ -104,13 +104,14 @@
 
 ## Role and Permission
 
-|   admin    |   paid user   |   common user   |
-| :--------: | :------------:| :-------------: | 
-| [if_admin] | [if_paiduser] | [if_commonuser] | 
+|   管理员    |   年费用户    |   月费用户    |   普通用户   |
+| :-------:  | :-----------:|:------------:| :---------: | 
+| [if_管理员] | [if_年费用户] | [if_月费用户] |[if_普通用户] | 
 
-[if_admin]: /chapters/role_and_permission/if_admin.md
-[if_paiduser]: /chapters/role_and_permission/if_paiduser.md
-[if_commonuser]: /chapters/role_and_permission/if_commonuser.md
+[if_管理员]: /chapters/role_and_permission/if_管理员.md
+[if_年费用户]: /chapters/role_and_permission/if_年费用户.md
+[if_月费用户]: /chapters/role_and_permission/if_月费用户.md
+[if_普通用户]: /chapters/role_and_permission/if_普通用户.md
 
 ## 附录
 
