@@ -4,11 +4,11 @@
 
 ## **User**
 
-|              |    Router    |  Model   |     View     |  Controller  |
-| :----------: | :----------: | :------: | :----------: | :----------: |
-| **register** | [R_register] |    \     | [V_register] | [C_register] |
-|  **login**   |  [R_login]   | [M_User] |  [V_login]   |  [C_login]   |
-|  **logout**  |  [R_logout]  |    /     |              |  [C_logout]  |
+|                 |    Router    |  Model   |     View     |  Controller  |
+| :-------------: | :----------: | :------: | :----------: | :----------: |
+| **C**(register) | [R_register] |    \     | [V_register] | [C_register] |
+| **R**(login)    |  [R_login]   | [M_User] |  [V_login]   |  [C_login]   |
+|**Session**logout|  [R_logout]  |    /     |              |  [C_logout]  |
 
 [R_register]: /chapters/user/register/R_register.md
 [V_register]: /chapters/user/register/V_register.md
@@ -24,11 +24,11 @@
 
 |                 |     Router      |     Model      |      View       |   Controller    |
 | :-------------: | :-------------: | :------------: | :-------------: | :-------------: |
-| **createAnExp** | [R_createAnExp] |       \        | [V_createAnExp] | [C_createAnExp] |
-|  **showExps**   |  [R_showExps]   |       \        |  [V_showExps]   |  [C_showExps]   |
-|  **showAnExp**  |  [R_showAnExp]  | [M_Experiment] |  [V_showAnExp]  |  [C_showAnExp]  |
-|  **editAnExp**  |  [R_editAnExp]  |       /        |  [V_editAnExp]  |  [C_editAnExp]  |
-|  **deleteAnExp**|  [R_deleteAnExp]|       /        |                 |  [C_deleteAnExp]|
+| 	   **C**	  | [R_createAnExp] |      \         | [V_createAnExp] | [C_createAnExp] |
+| 	   **R**	  |  [R_showExps]   |       \        |  [V_showExps]   |  [C_showExps]   |
+| 	   **R**	  |  [R_showAnExp]  | [M_Experiment] |  [V_showAnExp]  |  [C_showAnExp]  |
+| 	   **U**	  |  [R_editAnExp]  |       /        |  [V_editAnExp]  |  [C_editAnExp]  |
+| 	   **D**	  |  [R_deleteAnExp]|      /         |                 |  [C_deleteAnExp]|
 
 [R_createAnExp]: /chapters/experiment/showAnExp/R_createAnExp.md
 [V_createAnExp]: /chapters/experiment/showAnExp/V_createAnExp.md
@@ -50,10 +50,10 @@
 
 |                  |      Router      |       Model      |       View       |    Controller    |
 | :--------------: | :--------------: | :--------------: | :--------------: | :--------------: |
-| **createAGoods** | [R_createAGoods] |         \        | [V_createAGoods] | [C_createAGoods] |
-| **showAGoods**   | [R_showAGoods]   |    [M_Goods]     | [V_showAGoods]   | [C_showAGoods]   |
-| **editAGoods**   | [R_editAGoods]   |       /          | [V_editAGoods]   | [C_editAGoods]   |
-| **deleteAGoods** | [R_deleteAGoods] |       /          | [V_deleteAGoods] | [C_deleteAGoods] |
+| 	   **C**	   | [R_createAGoods] |         \        | [V_createAGoods] | [C_createAGoods] |
+| 	   **R**	   | [R_showAGoods]   |    [M_Goods]     | [V_showAGoods]   | [C_showAGoods]   |
+| 	   **U**	   | [R_editAGoods]   |        /         | [V_editAGoods]   | [C_editAGoods]   |
+| 	   **D**	   | [R_deleteAGoods] |       /          | [V_deleteAGoods] | [C_deleteAGoods] |
 
 [R_createAGoods]: /chapters/goods/createAGoods/R_createAGoods.md
 [V_createAGoods]: /chapters/goods/createAGoods/V_createAGoods.md
@@ -69,6 +69,29 @@
 [C_deleteAGoods]: /chapters/goods/deleteAGoods/C_deleteAGoods.md
 [M_Goods]: /chapters/goods/M_Goods.md
 
+## **Course**
+
+|                  |      Router      |       Model      |       View       |    Controller    |
+| :--------------: | :--------------: | :--------------: | :--------------: | :--------------: |
+| 	   **C**	   | [R_createACourse]|         \        | [V_createACourse]| [C_createACourse]|
+| 	   **R**	   | [R_showACourse]  |    [M_Course]    | [V_showACourse]  | [C_showACourse]  |
+| 	   **U**	   | [R_editACourse]  |         /         | [V_editACourse]  | [C_editACourse]  |
+| 	   **D**	   | [R_deleteACourse]|        /          | [V_deleteACourse]| [C_deleteACourse]|
+
+[R_createACourse]: /chapters/course/createACourse/R_createACourse.md
+[V_createACourse]: /chapters/course/createACourse/V_createACourse.md
+[C_createACourse]: /chapters/course/createACourse/C_createACourse.md
+[R_showACourse]: /chapters/course/showACourse/R_showACourse.md
+[V_showACourse]: /chapters/course/showACourse/V_showACourse.md
+[C_showACourse]: /chapters/course/showACourse/C_showACourse.md
+[R_editACourse]: /chapters/course/editACourse/R_editACourse.md
+[V_editACourse]: /chapters/course/editACourse/V_editACourse.md
+[C_editACourse]: /chapters/course/editACourse/C_editACourse.md
+[R_deleteACourse]: /chapters/course/deleteACourse/R_deleteACourse.md
+[V_deleteACourse]: /chapters/course/deleteACourse/V_deleteACourse.md
+[C_deleteACourse]: /chapters/course/deleteACourse/C_deleteACourse.md
+[M_Course]: /chapters/course/M_Course.md
+
 ## **Static webpage**
 
 |          |  Router  | Model |   View   | Controller |
@@ -81,11 +104,13 @@
 
 ## Role and Permission
 
-|                |      |      |      |      |
-| :------------: | :--: | :--: | :--: | :--: |
-|   **ADMIN**    |  []  |  []  |  []  |  []  |
-| **PAID_USER**  |      |      |      |      |
-| **BASIC_USER** |      |      |      |      |
+|            |               |                 |
+| :--------: | :------------:| :-------------: | 
+| [if_admin] | [if_paiduser] | [if_commonuser] | 
+
+[if_admin]: /chapters/role_and_permission/if_admin.md
+[if_paiduser]: /chapters/role_and_permission/if_paiduser.md
+[if_commonuser]: /chapters/role_and_permission/if_commonuser.md
 
 ## 附录
 
