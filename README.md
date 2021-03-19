@@ -104,7 +104,7 @@
 
 ## Role and Permission
 
-|            |               |                 |
+|   admin    |   paid user   |   common user   |
 | :--------: | :------------:| :-------------: | 
 | [if_admin] | [if_paiduser] | [if_commonuser] | 
 
