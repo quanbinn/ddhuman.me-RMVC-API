@@ -104,13 +104,13 @@
 
 ## Role and Permission
 
-|   管理员    |   年费用户    |   月费用户    |   普通用户   |
-| :-------:  | :-----------:|:------------:| :---------: | 
-| [if_管理员] | [if_年费用户] | [if_月费用户] |[if_普通用户] | 
+|  超级管理员   |   管理员    |   付费用户    |   普通用户   |
+| :---------:  | :-------:  | :-----------:| :---------: | 
+|[if_超级管理员]| [if_管理员] | [if_付费用户] |[if_普通用户] | 
 
+[if_超级管理员]: /chapters/role_and_permission/if_超级管理员.md
 [if_管理员]: /chapters/role_and_permission/if_管理员.md
-[if_年费用户]: /chapters/role_and_permission/if_年费用户.md
-[if_月费用户]: /chapters/role_and_permission/if_月费用户.md
+[if_付费用户]: /chapters/role_and_permission/if_付费用户.md
 [if_普通用户]: /chapters/role_and_permission/if_普通用户.md
 
 ## 附录
