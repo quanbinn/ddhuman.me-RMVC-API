@@ -92,6 +92,21 @@
 [C_deleteALesson]: /chapters/lesson/deleteALesson/C_deleteALesson.md
 [M_Lesson]: /chapters/lesson/M_Lesson.md
 
+## **Order**
+
+|                  |      Router      |       Model      |       View       |    Controller    |
+| :--------------: | :--------------: | :--------------: | :--------------: | :--------------: |
+| 	   **C**	   | [R_createAnOrder]|         \        | [V_createAnOrder]| [C_createAnOrder]|
+| 	   **R**	   | [R_showAnOrder]  |     [M_Order]    | [V_showAnOrder]  | [C_showAnOrder]  |
+
+[R_createAnOrder]: /chapters/order/createAnOrder/R_createAnOrder.md
+[V_createAnOrder]: /chapters/order/createAnOrder/V_createAnOrder.md
+[C_createAnOrder]: /chapters/order/createAnOrder/C_createAnOrder.md
+[R_showAnOrder]: /chapters/order/showAnOrder/R_showAnOrder.md
+[V_showAnOrder]: /chapters/order/showAnOrder/V_showAnOrder.md
+[C_showAnOrder]: /chapters/order/showAnOrder/C_showAnOrder.md
+[M_Order]: /chapters/order/M_Order.md
+
 ## **Static webpage**
 
 |          |  Router  | Model |   View   | Controller |
